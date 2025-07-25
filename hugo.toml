@@ -1,4 +1,4 @@
-baseURL = 'https://pwnfuzz.com/'
+baseURL = 'https://ctf-blog.vercel.app/'
 languageCode = 'en-us'
 theme = 'mainroad'
 
