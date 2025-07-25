@@ -3,11 +3,9 @@
 "date": 2020-06-17
 "tags": ["windows", "medium", "AV", "mssql", "sqli"]
 "keywords": ["windows", "medium", "AV", "mssql", "sqli"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Giddy is a medium windows box, getting initial shell is by grabbing\
-  \ the NTLMv2 hash of SMB from SQL injection. And Privilege escalation is by vulnerability\
-  \ in a software called Ubiquiti UniFi Video."
+"description": "Giddy is a medium windows box, getting initial shell is by grabbing the NTLMv2 hash of SMB from SQL injection. And Privilege escalation is by vulnerability in a software called Ubiquiti UniFi Video."
 "featured_image": "/img/htb-giddy/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

@@ -3,7 +3,7 @@
 "date": 2021-01-09
 "tags": ["IOT", "easy", "SirepRAT"]
 "keywords": ["IOT", "easy", "SirepRAT"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "Link: [https://www.hackthebox.eu/home/machines/profile/271](https://www.hackthebox.eu/home/machines/profile/271)"
 "featured_image": "/img/htb-omni/Untitled.png"

@@ -3,7 +3,7 @@
 "date": 2020-11-28
 "tags": ["linux", "medium", "phishing", "swaks", "pypi"]
 "keywords": ["linux", "medium", "phishing", "swaks", "pypi"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "Link: [https://www.hackthebox.eu/home/machines/profile/262](https://www.hackthebox.eu/home/machines/profile/262)"
 "featured_image": "/img/htb-sneakymailer/Untitled.png"

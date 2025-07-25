@@ -4,8 +4,7 @@
 "tags": ["linux", "easy", "redis", "john"]
 "keywords": ["linux", "easy", "redis", "john"]
 "author": "Ghostbyt3"
-"description": "We are going to pwn Postman by TheCyberGeek from Hack The Box. I enjoyed\
-  \ the way to get user shell."
+"description": "We are going to pwn Postman by TheCyberGeek from Hack The Box. I enjoyed the way to get user shell."
 "featured_image": "/img/htb-postman/1.png"
 "layout": "single"
 "showTableOfContents": true

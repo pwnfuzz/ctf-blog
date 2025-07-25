@@ -3,7 +3,7 @@
 "date": 2019-12-01
 "tags": ["linux", "easy", "SUID", "cve"]
 "keywords": ["linux", "easy", "SUID", "cve"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Lame from Hack The Box."
 "featured_image": "/img/htb-lame/1.png"

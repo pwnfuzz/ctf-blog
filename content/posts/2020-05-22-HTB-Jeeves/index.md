@@ -3,7 +3,7 @@
 "date": 2020-05-22
 "tags": ["windows", "medium", "impersonation", "jenkins"]
 "keywords": ["windows", "medium", "impersonation", "jenkins"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "layout": "single"
 "showTableOfContents": true

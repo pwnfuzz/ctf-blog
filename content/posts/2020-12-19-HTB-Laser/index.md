@@ -3,13 +3,9 @@
 "date": 2020-12-19
 "tags": ["linux", "insane", "printer", "ssrf", "pjl", "grpcurl", "solr", "sshpass"]
 "keywords": ["linux", "insane", "printer", "ssrf", "pjl", "grpcurl", "solr", "sshpass"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Doing the initial scan we realize that only 3 ports are open, one\
-  \ being the ssh and the other two being the clistener and printer service port.\
-  \ This was unexpected since for most of the machines we expect a webserver or anything\
-  \ similar to that so that we could progress on initial step but this was `Insane`\
-  \ rated machine on HackTheBox, without further ado let's start."
+"description": "Doing the initial scan we realize that only 3 ports are open, one being the ssh and the other two being the clistener and printer service port. This was unexpected since for most of the machines we expect a webserver or anything similar to that so that we could progress on initial step but this was `Insane` rated machine on HackTheBox, without further ado let's start."
 "featured_image": "/img/htb-laser/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

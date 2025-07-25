@@ -4,9 +4,7 @@
 "tags": ["ctf"]
 "keywords": ["ctf"]
 "author": "Ghostbyt3"
-"description": "NeverLAN CTF is a beginner friendly CTF . Me any my friend [D4mianWayne](https://twitter.com/d4mianwayne)\
-  \ did this together, it's really fun and we enjoyed it. In this post I write a walkthrough\
-  \ for the CTF."
+"description": "NeverLAN CTF is a beginner friendly CTF . Me any my friend [D4mianWayne](https://twitter.com/d4mianwayne) did this together, it's really fun and we enjoyed it. In this post I write a walkthrough for the CTF."
 "featured_image": "/img/neverlanctf/0.png"
 "layout": "single"
 "showTableOfContents": true

@@ -3,12 +3,9 @@
 "date": 2020-06-16
 "tags": ["windows", "medium", "oracle", "sqlplus", "volatility", "impersonation"]
 "keywords": ["windows", "medium", "oracle", "sqlplus", "volatility", "impersonation"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Silo is medium windows box, getting initial shell is by doing a oracle\
-  \ database attack and uploading a webshell and here I showed two methods of getting\
-  \ Administrator. One is using Volatility and the memory dump we got from DropBox\
-  \ and another method is Token Impersonation using Juicy Potato."
+"description": "Silo is medium windows box, getting initial shell is by doing a oracle database attack and uploading a webshell and here I showed two methods of getting Administrator. One is using Volatility and the memory dump we got from DropBox and another method is Token Impersonation using Juicy Potato."
 "featured_image": "/img/htb-silo/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

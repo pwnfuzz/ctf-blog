@@ -5,12 +5,9 @@
   "scf"]
 "keywords": ["windows", "insane", "applocker", "AD", "kerberoast", "rubeus", "dcsync",
   "scf"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "This box is really fun and some Active Directory stuffs which is really\
-  \ good. Getting User is doing SCF attack and create certificate for the user and\
-  \ to get 2nd user we need to do Kerberoast and the second user have some special\
-  \ privilege to do DCSync attack."
+"description": "This box is really fun and some Active Directory stuffs which is really good. Getting User is doing SCF attack and create certificate for the user and to get 2nd user we need to do Kerberoast and the second user have some special privilege to do DCSync attack."
 "featured_image": "/img/htb-sizzle/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

@@ -3,7 +3,7 @@
 "date": 2019-11-15
 "tags": ["wordpress", "easy", "sudo", "rbash"]
 "keywords": ["wordpress", "easy", "sudo", "rbash"]
-"categories": "Vulnhub"
+"categories": ["Vulnhub"]
 "author": "Ghostbyt3"
 "description": "Today, We are going to pwn DC 2 by DCAU7 from Vulnhub"
 "featured_image": "/img/dc2/1.1.png"

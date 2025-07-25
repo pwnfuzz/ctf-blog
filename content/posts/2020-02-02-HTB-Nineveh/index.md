@@ -3,7 +3,7 @@
 "date": 2020-02-02
 "tags": ["linux", "medium", "knockd", "lfi", "php", "cron"]
 "keywords": ["linux", "medium", "knockd", "lfi", "php", "cron"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Nineveh from Hack The Box."
 "featured_image": "/img/htb-nineveh/1.png"

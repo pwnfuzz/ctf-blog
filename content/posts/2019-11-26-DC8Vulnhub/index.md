@@ -3,7 +3,7 @@
 "date": 2019-11-26
 "tags": ["medium", "drupal", "sqli"]
 "keywords": ["medium", "drupal", "sqli"]
-"categories": "Vulnhub"
+"categories": ["Vulnhub"]
 "author": "Ghostbyt3"
 "description": "Today, We are going to pwn DC 8 by DCAU7 from Vulnhub"
 "featured_image": "/img/dc8/1.png"

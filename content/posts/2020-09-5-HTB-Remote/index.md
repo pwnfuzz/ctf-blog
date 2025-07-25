@@ -3,12 +3,9 @@
 "date": 2020-09-05
 "tags": ["windows", "easy", "nfs", "powerup"]
 "keywords": ["windows", "easy", "nfs", "powerup"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "This box is really a good and easy one. There ia a webpage running\
-  \ and we can find the backup of the webpage in NFS service. It contains username\
-  \ and password and the Web service have a CVE which helps to get shell and getting\
-  \ System is by Token  Impersonatation."
+"description": "This box is really a good and easy one. There ia a webpage running and we can find the backup of the webpage in NFS service. It contains username and password and the Web service have a CVE which helps to get shell and getting System is by Token Impersonatation."
 "featured_image": "/img/htb-remote/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

@@ -3,11 +3,9 @@
 "date": 2020-07-11
 "tags": ["linux", "medium", "xss", "logrotate", "sql", "cron"]
 "keywords": ["linux", "medium", "xss", "logrotate", "sql", "cron"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Book is an Medium Linux Box, Getting Initial is login as admin by\
-  \ sql truncation method and then further exploiting it by Reflected XSS and getting\
-  \ user ssh keys. And Root is exploiting Logrotate, This box is really fun."
+"description": "Book is an Medium Linux Box, Getting Initial is login as admin by sql truncation method and then further exploiting it by Reflected XSS and getting user ssh keys. And Root is exploiting Logrotate, This box is really fun."
 "featured_image": "/img/htb-book/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

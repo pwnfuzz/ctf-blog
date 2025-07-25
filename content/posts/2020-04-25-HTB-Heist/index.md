@@ -3,7 +3,7 @@
 "date": 2020-04-25
 "tags": ["windows", "easy", "lookupsid", "crackmapexec", "cisco", "procdump"]
 "keywords": ["windows", "easy", "lookupsid", "crackmapexec", "cisco", "procdump"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "layout": "single"
 "showTableOfContents": true

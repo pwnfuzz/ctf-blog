@@ -3,7 +3,7 @@
 "date": 2019-11-18
 "tags": ["easy", "hydra", "intruder"]
 "keywords": ["easy", "hydra", "intruder"]
-"categories": "Vulnhub"
+"categories": ["Vulnhub"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn DC 4 by DCAU7 from Vulnhub"
 "featured_image": "/img/dc4/1.1.png"

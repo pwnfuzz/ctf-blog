@@ -3,7 +3,7 @@
 "date": 2020-05-02
 "tags": ["linux", "easy", "sudo", "port_forward"]
 "keywords": ["linux", "easy", "sudo", "port_forward"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn OpenAdmin from Hack The Box."
 "featured_image": "/img/htb-openadmin/1.png"

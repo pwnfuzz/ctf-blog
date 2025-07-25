@@ -3,7 +3,7 @@
 "date": 2020-06-18
 "tags": ["windows", "medium", "mssql", "responder"]
 "keywords": ["windows", "medium", "mssql", "responder"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "Link: [https://www.hackthebox.eu/home/machines/profile/175](https://www.hackthebox.eu/home/machines/profile/175)"
 "featured_image": "/img/htb-querier/Untitled.png"

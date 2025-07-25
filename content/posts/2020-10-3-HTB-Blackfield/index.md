@@ -3,13 +3,9 @@
 "date": 2020-10-03
 "tags": ["windows", "smb", "kerberos", "rpcclient", "lsadump", "BackupPriv"]
 "keywords": ["windows", "smb", "kerberos", "rpcclient", "lsadump", "BackupPriv"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Blackfield is a good Windows Activity directory box, first we need\
-  \ exploit AS-REP-roasting we can reset another user’s password over RPC. With access\
-  \ to another share, We will found a bunch of process memory dumps, one of which\
-  \ is lsadump and we get user password. User have Special privilege called SeBackupPrivilege\
-  \ and SeRestorePrivilege using that and DiskShadow we can copy the Drive."
+"description": "Blackfield is a good Windows Activity directory box, first we need exploit AS-REP-roasting we can reset another user’s password over RPC. With access to another share, We will found a bunch of process memory dumps, one of which is lsadump and we get user password. User have Special privilege called SeBackupPrivilege and SeRestorePrivilege using that and DiskShadow we can copy the Drive."
 "featured_image": "/img/htb-blackfield/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

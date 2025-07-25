@@ -3,7 +3,7 @@
 "date": 2019-11-21
 "tags": ["easy", "wordpress", "sudo"]
 "keywords": ["easy", "wordpress", "sudo"]
-"categories": "Vulnhub"
+"categories": ["Vulnhub"]
 "author": "Ghostbyt3"
 "description": "Today, We are going to pwn DC 6 by DCAU7 from Vulnhub"
 "featured_image": "/img/dc6/1.png"

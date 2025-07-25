@@ -3,7 +3,7 @@
 "date": 2020-10-10
 "tags": ["linux", "medium", "docker.memcached", "sqli"]
 "keywords": ["linux", "medium", "docker.memcached", "sqli"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Cache from Hack The Box."
 "featured_image": "/img/htb-cache/Untitled.png"

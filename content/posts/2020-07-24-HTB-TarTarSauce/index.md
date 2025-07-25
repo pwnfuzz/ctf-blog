@@ -3,10 +3,9 @@
 "date": 2020-07-24
 "tags": ["linux", "medium", "wordpress", "plugin", "custom", "32bit"]
 "keywords": ["linux", "medium", "wordpress", "plugin", "custom", "32bit"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
-"description": "Getting Initial is by finding a vulnerable wordpress plugin and Privilege\
-  \ Escalation is exploiting a Custom script. Its really a fun box."
+"description": "Getting Initial is by finding a vulnerable wordpress plugin and Privilege Escalation is exploiting a Custom script. Its really a fun box."
 "featured_image": "/img/htb-tartarsauce/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

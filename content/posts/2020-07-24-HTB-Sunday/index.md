@@ -3,11 +3,9 @@
 "date": 2020-07-24
 "tags": ["linux", "medium", "finger", "wget", "sudo", "SUID"]
 "keywords": ["linux", "medium", "finger", "wget", "sudo", "SUID"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
-"description": "Getting Initial is by gathering usernames from Finger service and\
-  \ gusesing the password gives use user shell and We need to find backup shadow file\
-  \ to get user sammy's password and privilege escalation is by SUID."
+"description": "Getting Initial is by gathering usernames from Finger service and gusesing the password gives use user shell and We need to find backup shadow file to get user sammy's password and privilege escalation is by SUID."
 "featured_image": "/img/htb-sunday/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

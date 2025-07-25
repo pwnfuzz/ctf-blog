@@ -3,7 +3,7 @@
 "date": 2019-12-04
 "tags": ["linux", "easy", "sudo"]
 "keywords": ["linux", "easy", "sudo"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Nibbles from Hack The Box."
 "featured_image": "/img/htb-nibbles/1.png"

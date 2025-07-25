@@ -3,13 +3,9 @@
 "date": 2020-09-30
 "tags": ["linux", "easy", "env", "python", "path", "mysql"]
 "keywords": ["linux", "easy", "env", "python", "path", "mysql"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "We need to find some hidden .txt files and one of them have cresentials\
-  \ for FTP and FTP contains webpage backups but everything is old so we need to find\
-  \ new password for the Adminer and its vulnerable to SQL we can get new creds and\
-  \ login and To privesc, I’ll abuse sudo configured to allow me to pass in a PYTHONPATH,\
-  \ allowing a Python library hijack."
+"description": "We need to find some hidden .txt files and one of them have cresentials for FTP and FTP contains webpage backups but everything is old so we need to find new password for the Adminer and its vulnerable to SQL we can get new creds and login and To privesc, I’ll abuse sudo configured to allow me to pass in a PYTHONPATH, allowing a Python library hijack."
 "featured_image": "/img/htb-admirer/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

@@ -3,13 +3,9 @@
 "date": 2020-08-01
 "tags": ["linux", "hard", "oauth", "csrf", "dbus", "docker"]
 "keywords": ["linux", "hard", "oauth", "csrf", "dbus", "docker"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "This box includes tons of enumeration and Initial is by exploiting\
-  \ OAuth by authoring the administrator and create our own application and get admin\
-  \ session ID and grab ssh key of the user. And then we need to exploit uwsgi to\
-  \ get www-data because dbus running as root in www-data. Finally, by exploiting\
-  \ dbus we will get a shell as www-data."
+"description": "This box includes tons of enumeration and Initial is by exploiting OAuth by authoring the administrator and create our own application and get admin session ID and grab ssh key of the user. And then we need to exploit uwsgi to get www-data because dbus running as root in www-data. Finally, by exploiting dbus we will get a shell as www-data."
 "featured_image": "/img/htb-oouch/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

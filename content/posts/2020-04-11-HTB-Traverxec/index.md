@@ -4,8 +4,7 @@
 "tags": ["linux", "easy", "john", "sudo"]
 "keywords": ["linux", "easy", "john", "sudo"]
 "author": "Ghostbyt3"
-"description": "We are going to pwn Traverxec by jkr from Hack The Box. Getting User\
-  \ shell is fun and by using GTFOBins correctly we can get Root easily."
+"description": "We are going to pwn Traverxec by jkr from Hack The Box. Getting User shell is fun and by using GTFOBins correctly we can get Root easily."
 "featured_image": "/img/htb-traverxec/1.png"
 "layout": "single"
 "showTableOfContents": true

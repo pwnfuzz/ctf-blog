@@ -3,11 +3,9 @@
 "date": 2020-07-25
 "tags": ["windows", "medium", "dnspy", "AD", "ldap", "rpc", "vnc"]
 "keywords": ["windows", "medium", "dnspy", "AD", "ldap", "rpc", "vnc"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Cascade is a Windows Medium box, which involves lot of enumeration\
-  \ and finding VNC credentials which can be decrypted and with that we need to find\
-  \ SQlite database and also a small Reverse Engineering. Really a fun box to try."
+"description": "Cascade is a Windows Medium box, which involves lot of enumeration and finding VNC credentials which can be decrypted and with that we need to find SQlite database and also a small Reverse Engineering. Really a fun box to try."
 "featured_image": "/img/htb-cascade/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

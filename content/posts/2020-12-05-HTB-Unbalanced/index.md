@@ -3,7 +3,7 @@
 "date": 2020-12-05
 "tags": ["linux", "hard", "pihole", "xpath", "squid", "rsync", "encfs", "cachemgr"]
 "keywords": ["linux", "hard", "pihole", "xpath", "squid", "rsync", "encfs", "cachemgr"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "Link: [https://www.hackthebox.eu/home/machines/profile/268](https://www.hackthebox.eu/home/machines/profile/268)"
 "featured_image": "/img/htb-unbalanced/Untitled.png"

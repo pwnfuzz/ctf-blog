@@ -3,12 +3,9 @@
 "date": 2020-08-15
 "tags": ["linux.easy", "osint", "cron", "sudo"]
 "keywords": ["linux.easy", "osint", "cron", "sudo"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Traceback is really a good beginner friendly box, getting initial\
-  \ is to look for an existing webshell on the box. There is some sudo stuffs to get\
-  \ user shell and Privesc is by finding a script thats running as root and we have\
-  \ write permission over it."
+"description": "Traceback is really a good beginner friendly box, getting initial is to look for an existing webshell on the box. There is some sudo stuffs to get user shell and Privesc is by finding a script thats running as root and we have write permission over it."
 "featured_image": "/img/htb-traceback/1.png"
 "layout": "single"
 "showTableOfContents": true

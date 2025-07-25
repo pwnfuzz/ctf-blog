@@ -3,7 +3,7 @@
 "date": 2019-11-23
 "tags": ["medium", "drupal", "cron"]
 "keywords": ["medium", "drupal", "cron"]
-"categories": "Vulnhub"
+"categories": ["Vulnhub"]
 "author": "Ghostbyt3"
 "description": "Today, We are going to pwn DC 7 by DCAU7 from Vulnhub"
 "featured_image": "/img/dc7/1.png"

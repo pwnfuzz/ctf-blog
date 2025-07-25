@@ -3,11 +3,9 @@
 "date": 2020-08-22
 "tags": ["linux", "medium", "file-upload-vuln", "sqli", "mysql", "path"]
 "keywords": ["linux", "medium", "file-upload-vuln", "sqli", "mysql", "path"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Initial is by doing a SQLI to bypass login. And File Upload Vulnerability,\
-  \ from there we can get a shell and find user creds in SQL database. And root is\
-  \ by path hijack attack."
+"description": "Initial is by doing a SQLI to bypass login. And File Upload Vulnerability, from there we can get a shell and find user creds in SQL database. And root is by path hijack attack."
 "featured_image": "/img/htb-magic/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

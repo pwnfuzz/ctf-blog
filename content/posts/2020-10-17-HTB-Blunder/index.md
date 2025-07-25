@@ -3,7 +3,7 @@
 "date": 2020-10-17
 "tags": ["linux", "easy", "bludit", "mysql", ""]
 "keywords": ["linux", "easy", "bludit", "mysql", ""]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Blunder from Hack The Box."
 "featured_image": "/img/htb-blunder/Untitled.png"

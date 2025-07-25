@@ -3,7 +3,7 @@
 "date": 2019-12-04
 "tags": ["linux", "easy", "sudo", "cron"]
 "keywords": ["linux", "easy", "sudo", "cron"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Bashed from Hack The Box."
 "featured_image": "/img/htb-bashed/1.png"

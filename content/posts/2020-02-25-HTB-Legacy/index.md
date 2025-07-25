@@ -4,8 +4,7 @@
 "tags": ["windows", "easy", "smb", "ms08-067"]
 "keywords": ["windows", "easy", "smb", "ms08-067"]
 "author": "Ghostbyt3"
-"description": "We are going to pwn Legacy from Hack The Box. Which is a windows box\
-  \ based on smb exploit and I have explained in two methods."
+"description": "We are going to pwn Legacy from Hack The Box. Which is a windows box based on smb exploit and I have explained in two methods."
 "featured_image": "/img/htb-legacy/1.png"
 "layout": "single"
 "showTableOfContents": true

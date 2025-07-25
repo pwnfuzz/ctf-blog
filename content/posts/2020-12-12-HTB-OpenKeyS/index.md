@@ -3,7 +3,7 @@
 "date": 2020-12-12
 "tags": ["OpenBSD", "medium"]
 "keywords": ["OpenBSD", "medium"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "Link: [https://www.hackthebox.eu/home/machines/profile/267](https://www.hackthebox.eu/home/machines/profile/267)"
 "featured_image": "/img/htb-openkeys/Untitled.png"

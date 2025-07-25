@@ -3,10 +3,9 @@
 "date": 2020-07-06
 "tags": ["linux", "insane", "smtp", "pop3", "lxd", "wpscan"]
 "keywords": ["linux", "insane", "smtp", "pop3", "lxd", "wpscan"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
-"description": "Getting User is by decrypting a cipher and getting the private key\
-  \ of user and I did root in unintended way, by using lxd for privilege escalation"
+"description": "Getting User is by decrypting a cipher and getting the private key of user and I did root in unintended way, by using lxd for privilege escalation"
 "featured_image": "/img/htb-brainfuck/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

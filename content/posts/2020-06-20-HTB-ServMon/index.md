@@ -3,12 +3,9 @@
 "date": 2020-06-20
 "tags": ["windows", "easy", "lfi", "ftp", "nsclient"]
 "keywords": ["windows", "easy", "lfi", "ftp", "nsclient"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "ServMon is an easy windows machine, Getting user is by exploiting\
-  \ Local File Inclusion from the website and get user password from his desktop and\
-  \ Privilege Escalation is by exploiting NSClient++ and run our payload to own the\
-  \ box."
+"description": "ServMon is an easy windows machine, Getting user is by exploiting Local File Inclusion from the website and get user password from his desktop and Privilege Escalation is by exploiting NSClient++ and run our payload to own the box."
 "featured_image": "/img/htb-servmon/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

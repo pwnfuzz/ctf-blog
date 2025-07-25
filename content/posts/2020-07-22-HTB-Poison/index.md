@@ -3,11 +3,9 @@
 "date": 2020-07-22
 "tags": ["freebsd", "medium", "vnc", "lfi", "race_condition"]
 "keywords": ["freebsd", "medium", "vnc", "lfi", "race_condition"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
-"description": "Poison is an Medium box, getting initial is by finding the LFI and\
-  \ doing race condition or we can get the ssh password of the user directly by decoding\
-  \ the base64 and root is port forwarding VNC to our machine and login it as root."
+"description": "Poison is an Medium box, getting initial is by finding the LFI and doing race condition or we can get the ssh password of the user directly by decoding the base64 and root is port forwarding VNC to our machine and login it as root."
 "featured_image": "/img/htb-poison/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

@@ -4,8 +4,7 @@
 "tags": ["medium", "port_forward", "log-poisoning", "mysql"]
 "keywords": ["medium", "port_forward", "log-poisoning", "mysql"]
 "author": "Ghostbyt3"
-"description": "Since there is no other interesting Ports Open, I started Gobuster\
-  \ on the webpage."
+"description": "Since there is no other interesting Ports Open, I started Gobuster on the webpage."
 "featured_image": "/img/symfonos4/1.png"
 "layout": "single"
 "showTableOfContents": true

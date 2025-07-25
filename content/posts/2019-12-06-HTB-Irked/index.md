@@ -3,7 +3,7 @@
 "date": 2019-12-06
 "tags": ["linux", "easy", "steg"]
 "keywords": ["linux", "easy", "steg"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Irked from Hack The Box."
 "featured_image": "/img/htb-irked/1.png"

@@ -3,14 +3,9 @@
 "date": 2020-09-12
 "tags": ["linux", "hard", "ssrf", "gopher.git", "serialize", "ldap"]
 "keywords": ["linux", "hard", "ssrf", "gopher.git", "serialize", "ldap"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Travel is super cool box, I personally love this one. We will find\
-  \ an exposed .git folder on one and that provides me the source of the webpage and\
-  \ from there we need code analyze them in GitHub and we need to do a SSRF attack\
-  \ to poison the memcache with a serialized PHP payload to get the shell. For Root,\
-  \ the user lynik-admin is LDAP Administrator with her we add an user to sudo group\
-  \ and add ssh keys and we can just sudo to root."
+"description": "Travel is super cool box, I personally love this one. We will find an exposed .git folder on one and that provides me the source of the webpage and from there we need code analyze them in GitHub and we need to do a SSRF attack to poison the memcache with a serialized PHP payload to get the shell. For Root, the user lynik-admin is LDAP Administrator with her we add an user to sudo group and add ssh keys and we can just sudo to root."
 "featured_image": "/img/htb-travel/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

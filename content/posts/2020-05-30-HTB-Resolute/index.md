@@ -3,10 +3,9 @@
 "date": 2020-05-30
 "tags": ["windows", "medium", "dll_injection", "crackmapexec"]
 "keywords": ["windows", "medium", "dll_injection", "crackmapexec"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "We are going to pwn Resolute which is an medium windows machine from\
-  \ Hack The Box."
+"description": "We are going to pwn Resolute which is an medium windows machine from Hack The Box."
 "featured_image": "/img/htb-resolute/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

@@ -3,7 +3,7 @@
 "date": 2019-11-19
 "tags": ["easy", "lfi", "log-poisoning"]
 "keywords": ["easy", "lfi", "log-poisoning"]
-"categories": "Vulnhub"
+"categories": ["Vulnhub"]
 "author": "Ghostbyt3"
 "description": "Today, We are going to pwn DC 5 by DCAU7 from Vulnhub"
 "featured_image": "/img/dc5/1.png"

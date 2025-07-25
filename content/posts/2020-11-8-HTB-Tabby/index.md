@@ -3,11 +3,9 @@
 "date": 2020-11-08
 "tags": ["linux", "easy", "lfi", "tomcat", "lxd", "fcrackzip"]
 "keywords": ["linux", "easy", "lfi", "tomcat", "lxd", "fcrackzip"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Tabby is an easy Linux machine, first we need to find the LFI and\
-  \ get some sensitive files of Tomcat and Upload war file to get shell and Privilege\
-  \ Escaltion"
+"description": "Tabby is an easy Linux machine, first we need to find the LFI and get some sensitive files of Tomcat and Upload war file to get shell and Privilege Escaltion"
 "featured_image": "/img/htb-tabby/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

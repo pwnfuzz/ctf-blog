@@ -5,12 +5,9 @@
   "icacls"]
 "keywords": ["windows", "hard", "AD", "PSCreds", "CliXml", "phishing", "WriteOwner",
   "WriteDacl", "icacls"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Really a good AD box, We need to do Phishing attack to get the initial\
-  \ shell and 1st user has WriteOwner Permission over another user. And 2nd User has\
-  \ some WriteDacl permission over a Group which has permission to access the Administrator\
-  \ directory."
+"description": "Really a good AD box, We need to do Phishing attack to get the initial shell and 1st user has WriteOwner Permission over another user. And 2nd User has some WriteDacl permission over a Group which has permission to access the Administrator directory."
 "featured_image": "/img/htb-reel/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

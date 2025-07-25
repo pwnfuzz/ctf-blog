@@ -3,11 +3,9 @@
 "date": 2020-07-04
 "tags": ["linux", "hard", "domain", "lfi", "luks"]
 "keywords": ["linux", "hard", "domain", "lfi", "luks"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Getting Initial shell is finding a LFI in the subdomain and get the\
-  \ FTP password from that to get first user and second user is by tricking a binary\
-  \ and root is by mounting an image with the help of Luks"
+"description": "Getting Initial shell is finding a LFI in the subdomain and get the FTP password from that to get first user and second user is by tricking a binary and root is by mounting an image with the help of Luks"
 "featured_image": "/img/htb-forwardslash/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

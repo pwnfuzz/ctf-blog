@@ -3,11 +3,9 @@
 "date": 2020-06-13
 "tags": ["windows", "medium", "azure", "ldap", "rpc", "smb_login"]
 "keywords": ["windows", "medium", "azure", "ldap", "rpc", "smb_login"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Monteverde was an Active Directory box, The Initial foothold we need\
-  \ to do password spray on to get initial shell. And we need to abuse the Azure active\
-  \ directory database to leak the administrator password."
+"description": "Monteverde was an Active Directory box, The Initial foothold we need to do password spray on to get initial shell. And we need to abuse the Azure active directory database to leak the administrator password."
 "featured_image": "/img/htb-monteverde/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

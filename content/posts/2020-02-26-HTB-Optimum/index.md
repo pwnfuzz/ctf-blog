@@ -3,7 +3,7 @@
 "date": 2020-02-26
 "tags": ["windows", "easy", "sherlock", "empire", "rce", "nishang"]
 "keywords": ["windows", "easy", "sherlock", "empire", "rce", "nishang"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Optimum from Hack The Box."
 "featured_image": "/img/htb-optimum/1.png"

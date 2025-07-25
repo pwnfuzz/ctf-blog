@@ -3,7 +3,7 @@
 "date": 2020-11-21
 "tags": ["windows", "easy", "plink", "port_forward", "bof"]
 "keywords": ["windows", "easy", "plink", "port_forward", "bof"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "Link: [https://www.hackthebox.eu/home/machines/profile/263](https://www.hackthebox.eu/home/machines/profile/263)"
 "featured_image": "/img/htb-buff/Untitled.png"

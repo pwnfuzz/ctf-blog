@@ -3,7 +3,7 @@
 "date": 2019-12-03
 "tags": ["linux", "easy", "sudo", "shellshock"]
 "keywords": ["linux", "easy", "sudo", "shellshock"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Shocker from Hack The Box."
 "featured_image": "/img/htb-shocker/1.png"

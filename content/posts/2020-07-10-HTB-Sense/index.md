@@ -3,7 +3,7 @@
 "date": 2020-07-10
 "tags": ["freebsd", "easy", "pfsense"]
 "keywords": ["freebsd", "easy", "pfsense"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Sense from Hack The Box."
 "featured_image": "/img/htb-sense/Untitled.png"

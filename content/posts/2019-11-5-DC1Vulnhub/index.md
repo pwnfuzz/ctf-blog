@@ -3,7 +3,7 @@
 "date": 2020-11-05
 "tags": ["drupal", "easy"]
 "keywords": ["drupal", "easy"]
-"categories": "Vulnhub"
+"categories": ["Vulnhub"]
 "author": "Ghostbyt3"
 "description": "Today, We are going to pwn DC 1 by DCAU7 from Vulnhub"
 "featured_image": "/img/dc1/1.1.png"

@@ -3,7 +3,7 @@
 "date": 2019-12-03
 "tags": ["linux", "easy", "sudo"]
 "keywords": ["linux", "easy", "sudo"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Mirai from Hack The Box."
 "featured_image": "/img/htb-mirai/1.png"

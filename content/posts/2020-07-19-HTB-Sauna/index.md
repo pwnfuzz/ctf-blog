@@ -5,12 +5,9 @@
   "AD", "as-rep"]
 "keywords": ["windows", "easy", "ldap", "kerberos", "secretsdump", "dcsync", "sharphound",
   "AD", "as-rep"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Sauna is an easy AD machine, getting initial is by gathering usernames\
-  \ from the web and doing AS-REP Roasting, we can get a user's hash. And winPEAS\
-  \ reveals svc_loanmgr's password in plain text and Getting System is by doing DC\
-  \ Sync Attack."
+"description": "Sauna is an easy AD machine, getting initial is by gathering usernames from the web and doing AS-REP Roasting, we can get a user's hash. And winPEAS reveals svc_loanmgr's password in plain text and Getting System is by doing DC Sync Attack."
 "featured_image": "/img/htb-sauna/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

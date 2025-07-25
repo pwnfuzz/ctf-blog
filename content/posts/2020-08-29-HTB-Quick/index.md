@@ -3,12 +3,9 @@
 "date": 2020-08-29
 "tags": ["linux", "hard", "quic", "http3", "xslt", "ln"]
 "keywords": ["linux", "hard", "quic", "http3", "xslt", "ln"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Quick is a hard and very interesting box, First we need to access\
-  \ a webpage hosted over Quic / HTTP version 3. We need to exploit a printer service\
-  \ that gives us one of the users private ssh keys Finally, to get root we need to\
-  \ find creds in a cached config file."
+"description": "Quick is a hard and very interesting box, First we need to access a webpage hosted over Quic / HTTP version 3. We need to exploit a printer service that gives us one of the users private ssh keys Finally, to get root we need to find creds in a cached config file."
 "featured_image": "/img/htb-quick/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

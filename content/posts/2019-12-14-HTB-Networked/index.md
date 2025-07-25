@@ -3,7 +3,7 @@
 "date": 2019-12-14
 "tags": ["linux", "easy", "php", "sudo"]
 "keywords": ["linux", "easy", "php", "sudo"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Networked from Hack The Box."
 "featured_image": "/img/htb-networked/1.png"

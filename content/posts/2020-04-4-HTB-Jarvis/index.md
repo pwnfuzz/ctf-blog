@@ -3,7 +3,7 @@
 "date": 2020-04-04
 "tags": ["linux", "medium", "sudo", "setuid", "sqli", "phpmyadmin", "python"]
 "keywords": ["linux", "medium", "sudo", "setuid", "sqli", "phpmyadmin", "python"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Jarvis from Hack The Box."
 "featured_image": "/img/htb-jarvis/1.png"

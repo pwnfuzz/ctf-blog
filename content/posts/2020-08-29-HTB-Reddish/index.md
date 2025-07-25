@@ -3,11 +3,9 @@
 "date": 2020-08-29
 "tags": ["linux", "insane", "cron", "docker", "nmap_static", "pivot", "port_fwd"]
 "keywords": ["linux", "insane", "cron", "docker", "nmap_static", "pivot", "port_fwd"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "This box is full docker, Finding each way to escape the container\
-  \ and finally there is a misconfiguration in a container which leads us to mount\
-  \ the entire drive. This box requires lot of enumeration."
+"description": "This box is full docker, Finding each way to escape the container and finally there is a misconfiguration in a container which leads us to mount the entire drive. This box requires lot of enumeration."
 "featured_image": "/img/htb-reddish/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

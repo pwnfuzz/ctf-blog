@@ -3,7 +3,7 @@
 "date": 2019-12-01
 "tags": ["linux", "easy", "setuid", "cve", "lfi", "file-upload-vuln"]
 "keywords": ["linux", "easy", "setuid", "cve", "lfi", "file-upload-vuln"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Beep from Hack The Box."
 "featured_image": "/img/htb-beep/1.png"

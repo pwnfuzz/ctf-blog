@@ -3,11 +3,9 @@
 "date": 2020-06-28
 "tags": ["windows", "medium", "drupal", "ms15-051"]
 "keywords": ["windows", "medium", "drupal", "ms15-051"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
-"description": "Bastard is a Windows medium machine but its easy, Getting shell is\
-  \ exploiting Drupal by uploading a malicious php file and The machine is unpatched\
-  \ so Kernel exploit to get system."
+"description": "Bastard is a Windows medium machine but its easy, Getting shell is exploiting Drupal by uploading a malicious php file and The machine is unpatched so Kernel exploit to get system."
 "featured_image": "/img/htb-bastard/Untitled.png"
 "layout": "single"
 "showTableOfContents": true

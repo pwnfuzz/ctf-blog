@@ -3,7 +3,7 @@
 "date": 2019-11-16
 "tags": ["joomla", "easy", "php", "kernel_exploit", "sqli"]
 "keywords": ["joomla", "easy", "php", "kernel_exploit", "sqli"]
-"categories": "Vulnhub"
+"categories": ["Vulnhub"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn DC 3 by DCAU7 from Vulnhub"
 "featured_image": "/img/dc3/1.1.png"

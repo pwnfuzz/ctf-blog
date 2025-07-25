@@ -3,7 +3,7 @@
 "date": 2019-12-05
 "tags": ["linux", "easy", "joomla"]
 "keywords": ["linux", "easy", "joomla"]
-"categories": "HackTheBox"
+"categories": ["HackTheBox"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Curling from Hack The Box."
 "featured_image": "/img/htb-curling/1.png"

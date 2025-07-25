@@ -3,7 +3,7 @@
 "date": 2020-01-16
 "tags": ["linux", "medium", "domain", "cron", "redirection"]
 "keywords": ["linux", "medium", "domain", "cron", "redirection"]
-"categories": "HackTheBox OSCP-Like"
+"categories": ["HackTheBox OSCP-Like"]
 "author": "Ghostbyt3"
 "description": "We are going to pwn Cronos from Hack The Box."
 "featured_image": "/img/htb-cronos/1.png"
