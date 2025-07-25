@@ -1,2 +1,2 @@
-# labs.pwnfuzz.com
-Labs Division - PwnFuzz
+# ctf.pwnfuzz.com
+CTF Writeups - PwnFuzz
