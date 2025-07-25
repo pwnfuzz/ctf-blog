@@ -1,0 +1,160 @@
+{{ define "main" }}
+<div class="content main__content clearfix">
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to PwnFuzz</h1>
+      <p class="hero-description">
+        Explore our comprehensive research platform with detailed technical analysis, exploit development guides, and cutting-edge security insights.
+      </p>
+    </div>
+  </section>
+
+  <section class="blog-list">
+    <div class="posts-grid">
+      {{ range where .Site.RegularPages "Section" "posts" }}
+      <article class="post-card">
+        <div class="post-card-content">
+          <h3 class="post-card-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h3>
+          <div class="post-card-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            <span class="meta-sep">•</span>
+            <span class="post-author">{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }}</span>
+            {{ with .ReadingTime }}<span class="meta-sep">•</span><span class="reading-time">{{ . }} min read</span>{{ end }}
+          </div>
+          <p class="post-card-excerpt">{{ .Summary | plainify | truncate 180 }}</p>
+          {{ with .Params.tags }}
+            <div class="post-tags">
+              <span class="tags-label">Tags:</span>
+              {{ range first 3 . }}
+                <a class="tag" href="/tags/{{ . | urlize }}/">{{ . }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+</div>
+
+<style>
+.hero-section {
+  background: #fff;
+  color: #222;
+  padding: 2.5rem 0 1.5rem 0;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+.hero-title {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.hero-description {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 0.5rem auto;
+  line-height: 1.5;
+}
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.post-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+.post-card-title a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.post-card-title a:hover {
+  color: #e22d30;
+}
+.post-card-meta {
+  margin: 0.5rem 0 0.5rem 0;
+  font-size: 0.95rem;
+  color: #888;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+.meta-sep {
+  color: #ccc;
+  margin: 0 0.3em;
+}
+.post-author {
+  color: #555;
+  font-weight: 500;
+}
+.reading-time {
+  color: #888;
+  font-style: italic;
+}
+.post-tags {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  margin-top: 0.5em;
+  flex-wrap: wrap;
+}
+.tags-label {
+  font-weight: 500;
+  color: #888;
+  margin-right: 0.3em;
+}
+.tag {
+  background: #f8f8fa;
+  color: #e22d30;
+  border: 1px solid #e22d30;
+  padding: 0.18rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.85em;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  margin-right: 0.2em;
+  margin-bottom: 0.1em;
+  display: inline-block;
+}
+.tag:hover {
+  background: #e22d30;
+  color: #fff;
+  border: 1px solid #e22d30;
+}
+.post-card-excerpt {
+  margin: 0.5rem 0 0 0;
+  line-height: 1.5;
+  color: #444;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 3.5em;
+  max-height: 4.5em;
+}
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+{{ end }} 

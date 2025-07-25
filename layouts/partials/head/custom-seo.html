@@ -1,0 +1,117 @@
+{{/* Enhanced SEO Meta Tags */}}
+<meta name="robots" content="index, follow">
+<meta name="author" content="{{ .Site.Params.author | default "D4mianWayne" }}">
+<meta name="keywords" content="{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else if .Site.Params.keywords }}{{ delimit .Site.Params.keywords ", " }}{{ else }}pwnfuzz, security research, exploit development, vulnerability analysis, binary exploitation, fuzzing, red team, penetration testing, CVE analysis, offensive security{{ end }}">
+
+{{/* Canonical URL */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Enhanced Open Graph Tags */}}
+{{ if .Site.Params.opengraph }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description | default .Summary }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:locale" content="{{ .Site.Language.Lang | default "en_US" }}">
+
+{{/* Open Graph Image */}}
+{{ if .Params.featured_image }}
+<meta property="og:image" content="{{ .Params.featured_image | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{ else if .Site.Params.og_image }}
+<meta property="og:image" content="{{ .Site.Params.og_image | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{ end }}
+
+{{/* Article specific Open Graph tags */}}
+{{ if not .IsHome }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{ if .Params.tags }}
+{{ range .Params.tags }}
+<meta property="article:tag" content="{{ . }}">
+{{ end }}
+{{ end }}
+{{ if .Params.categories }}
+{{ range .Params.categories }}
+<meta property="article:section" content="{{ . }}">
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{/* Enhanced Twitter Cards */}}
+{{ if .Site.Params.twitter_cards }}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ .Site.Params.twitter_username | default "@D4mianWayne" }}">
+<meta name="twitter:creator" content="{{ .Site.Params.twitter_username | default "@D4mianWayne" }}">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description | default .Summary }}{{ end }}">
+{{ if .Params.featured_image }}
+<meta name="twitter:image" content="{{ .Params.featured_image | absURL }}">
+{{ else if .Site.Params.twitter_image }}
+<meta name="twitter:image" content="{{ .Site.Params.twitter_image | absURL }}">
+{{ end }}
+{{ end }}
+
+{{/* Structured Data - Organization Schema */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PwnFuzz",
+  "url": "https://pwnfuzz.com",
+  "logo": "https://pwnfuzz.com/img/pwnfuzz.png",
+  "description": "{{ .Site.Params.description }}",
+  "founder": {
+    "@type": "Person",
+    "name": "D4mianWayne",
+    "jobTitle": "Security Researcher",
+    "url": "https://github.com/D4mianWayne"
+  },
+  "sameAs": [
+    "https://github.com/D4mianWayne"
+  ]
+}
+</script>
+{{ end }}
+
+{{/* Structured Data - Article Schema */}}
+{{ if not .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ .Params.Description | default .Summary }}",
+  "image": "{{ if .Params.featured_image }}{{ .Params.featured_image | absURL }}{{ else }}https://pwnfuzz.com/img/pwnfuzz.png{{ end }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Params.author | default "D4mianWayne" }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "PwnFuzz",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pwnfuzz.com/img/pwnfuzz.png"
+    }
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{ end }}
+
+{{/* Security Headers */}}
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="DENY">
+<meta http-equiv="X-XSS-Protection" content="1; mode=block">
+<meta name="referrer" content="strict-origin-when-cross-origin"> 

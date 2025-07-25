@@ -1,0 +1,20 @@
+/* Force override for Chroma/Monokai code block background and text color */
+pre.chroma, pre.chroma code, .highlight pre, .highlight code, pre, code, .chroma, .highlight {
+  background: #f8f8f8 !important;
+  color: #222 !important;
+}
+
+/* Target inline styles on <pre> */
+pre[style*="background-color"] {
+  background: #f8f8f8 !important;
+  color: #222 !important;
+}
+
+/* Optional: Improve code block appearance */
+.chroma code, pre code, .highlight code {
+  background: none !important;
+  color: inherit !important;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 1em;
+}
+

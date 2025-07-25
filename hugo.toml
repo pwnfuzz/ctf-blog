@@ -1,0 +1,108 @@
+baseURL = 'https://pwnfuzz.com/'
+languageCode = 'en-us'
+theme = 'mainroad'
+
+# SEO and Site Configuration
+title = "PwnFuzz - Security Research & Exploit Development"
+description = "PwnFuzz is a leading security research blog focused on vulnerability discovery, exploit development, binary exploitation, and offensive security. Expert analysis of CVEs, fuzzing techniques, and red team methodologies."
+keywords = ["pwnfuzz", "security research", "exploit development", "vulnerability analysis", "binary exploitation", "fuzzing", "red team", "penetration testing", "CVE analysis", "offensive security"]
+author = "D4mianWayne"
+
+# Google Analytics
+googleAnalytics = "G-R5CC5776NV"
+
+# Enable sitemap generation
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[Params.logo]
+  image = "img/pwnfuzz.png" # Logo image. Path relative to "static"
+  title = "PwnFuzz" # Logo title, otherwise will use site title
+  subtitle = "Fuzz. Pwn. Repeat." # Logo subtitle
+
+[pagination]
+  pagerSize = 5
+
+[build]
+  writeStats = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+
+[Params]
+  # Enhanced SEO parameters
+  description = "PwnFuzz - Expert security research and exploit development. Deep dive into vulnerability analysis, binary exploitation, fuzzing techniques, and offensive security methodologies."
+  mainSections = ["posts"]
+  showReadingTime = true
+  readMore = true  # Always show read more link
+  summaryLength = 200
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  
+  # SEO specific settings
+  seo = true
+  canonicalURL = true
+  noindex = false
+  nofollow = false
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Google Sans', 'Product Sans', 'Inter', sans-serif"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[mediaTypes]
+  [mediaTypes.'text/plain']
+    suffixes = ['txt']
+
+[outputFormats]
+  [outputFormats.PlainText]
+    mediaType = 'text/plain'
+    isPlainText = true
+    isHTML = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "1day-breakdowns"
+    name = "1Day Breakdowns"
+    url = "/1day-breakdowns/"
+    weight = 2
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4

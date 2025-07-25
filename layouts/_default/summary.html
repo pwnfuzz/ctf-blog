@@ -1,0 +1,86 @@
+<!-- DEBUG: Summary Template -->
+<article class="list__item post">
+    <header class="list__header">
+        <h2 class="list__title post__title">
+            <a href="{{ .RelPermalink }}" rel="bookmark">
+                {{ .Title }}
+            </a>
+        </h2>
+        
+        <div class="post-meta">
+            {{ with .Params.author }}
+                <span class="post-author">
+                    <i class="fas fa-user"></i> {{ . }}
+                </span>
+                <span class="meta-separator">•</span>
+            {{ end }}
+            
+            <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                <i class="far fa-calendar-alt"></i> {{ .Date.Format "January 2, 2006" }}
+            </time>
+            
+            {{ if .Params.categories }}
+                <span class="meta-separator">•</span>
+                <span class="post-categories">
+                    <i class="far fa-folder"></i>
+                    {{ range $index, $category := .Params.categories }}
+                        {{ if $index }}, {{ end }}
+                        <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                </span>
+            {{ end }}
+            
+            {{ if .Site.Params.showReadingTime }}
+                <span class="meta-separator">•</span>
+                <span class="reading-time">
+                    <i class="far fa-clock"></i> {{ .ReadingTime }} min read
+                </span>
+            {{ end }}
+        </div>
+    </header>
+    
+    <div class="content list__excerpt post__content clearfix">
+        <div class="post-summary">
+        <!-- Debug Info -->
+        <!-- Has Description: {{ if .Description }}Yes{{ else }}No{{ end }} -->
+        <!-- Raw Content Length: {{ len .RawContent }} -->
+        <!-- Plain Content Length: {{ len .Plain }} -->
+        
+        {{/* First try to use the description */}}
+        {{ with .Description }}
+            <div class="post-summary">
+                {{ . | markdownify | plainify | safeHTML | truncate 200 }}
+            </div>
+        {{ else }}
+            {{/* If no description, try to get the first paragraph */}}
+            {{ $plain := .Plain }}
+            {{ $paragraphs := split $plain "\n\n" }}
+            {{ range first 1 (after 1 $paragraphs) }}
+                {{ $text := . | markdownify | plainify | safeHTML | truncate 200 }}
+                {{ if $text }}
+                    <div class="post-summary">{{ $text }}</div>
+                {{ end }}
+            {{ end }}
+            
+            {{/* If still no content, use the summary */}}
+            {{ if not (findRE "<div class=\"post-summary\">" .) }}
+                <div class="post-summary">
+                    {{ .Summary | plainify | safeHTML | truncate 400 }}
+                </div>
+            {{ end }}
+        {{ end }}
+        </div>
+    </div>
+    
+    {{/* Always show read more button if enabled */}}
+    {{- if .Site.Params.readmore }}
+    <div class="list__footer clearfix">
+        <a class="list__footer-readmore btn" href="{{ .RelPermalink }}">
+            {{ T "read_more" }}
+        </a>
+    </div>
+    {{- end }}
+    
+    <!-- Debug: First 100 chars of content -->
+    <!-- {{ substr .Plain 0 100 }} -->
+</article>

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main class="main" role="main">
+	<header class="main__header">
+		<h1 class="main__title">{{ .Title }}</h1>
+	</header>
+	<div class="content main__content clearfix">
+		{{ .Content }}
+		<ul class="terms">
+			{{ range .Data.Terms.ByCount }}
+			<li class="terms__item">
+				<a class="terms__link" href="{{ .Page.RelPermalink }}">
+					<span class="terms__name">{{ .Page.Title }}</span>
+					<span class="terms__count">{{ .Count }}</span>
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+</main>
+{{ end }}

@@ -1,0 +1,41 @@
+{{/* Google Analytics */}}
+{{ if .Site.Params.googleAnalytics }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ .Site.Params.googleAnalytics }}');
+</script>
+{{ end }}
+
+{{/* Google Search Console verification */}}
+{{ if .Site.Params.googleSearchConsole }}
+<meta name="google-site-verification" content="{{ .Site.Params.googleSearchConsole }}" />
+{{ end }}
+
+{{/* Bing Webmaster Tools verification */}}
+{{ if .Site.Params.bingWebmasterTools }}
+<meta name="msvalidate.01" content="{{ .Site.Params.bingWebmasterTools }}" />
+{{ end }}
+
+{{/* Yandex Webmaster verification */}}
+{{ if .Site.Params.yandexWebmaster }}
+<meta name="yandex-verification" content="{{ .Site.Params.yandexWebmaster }}" />
+{{ end }}
+
+{{/* Additional SEO tracking */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PwnFuzz",
+  "url": "https://pwnfuzz.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://pwnfuzz.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script> 

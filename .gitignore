@@ -1,0 +1,8 @@
+.hugo_build.lock
+node_modules/
+resources/
+public/
+.vscode/
+.DS_Store
+node_modules/
+hugo_stats.json

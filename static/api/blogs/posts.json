@@ -1,0 +1,38 @@
+[
+  {
+    "title": "CVE 2024-4040 - CrushFTP Server-Side Template Injection Vulnerability Analysis",
+    "slug": "crushftp-cve-2024-4040",
+    "date": "2024-05-09",
+    "author": "D4mianWayne",
+    "tags": ["cve-2024-4040", "Java", "SSTI", "RCE"],
+    "summary": "This blog post contains a thorough analysis of Server Side Template Injection vulnerability in a commercial Managed File Transfer product named CrushFTP. Exploit script is available. The post covers the vulnerability, exploitation, and the underlying custom templating engine that led to the issue, with code and analysis.",
+    "coverImage": "/img/CrushFTP/Untitled.png"
+  },
+  {
+    "title": "CVE 2025-2825 - CrushFTP Authentication Bypass Analysis",
+    "slug": "crushftp-cve-2025-2825",
+    "date": "2025-03-30",
+    "author": "D4mianWayne",
+    "tags": ["CVE-2025-2825", "Java", "auth-bypass", "logic-flaw"],
+    "summary": "This post analyzes the authentication bypass vulnerability in CrushFTP, including patch diffing, code analysis, and exploit methodology. It details the affected versions, the patch, and the logic flaw that allowed unauthenticated access, with code snippets and step-by-step breakdown.",
+    "coverImage": "/img/crushftp-cve-2025-2825/image_0.png"
+  },
+  {
+    "title": "Exploring Recent CVEs in HPE Insight Remote Support",
+    "slug": "hpe-irs-cve-deep-dive",
+    "date": "2025-01-08",
+    "author": "D4mianWayne",
+    "tags": ["CVE-2024-53676", "CVE-2024-53675", "Java", "XXE", "RCE", "Path Traversal"],
+    "summary": "This post explores two critical vulnerabilities in HPE Insight Remote Support: an unauthenticated XXE and a remote code execution flaw. It covers the technical details, exploitation process, and provides proof-of-concept code and analysis for both vulnerabilities.",
+    "coverImage": "/img/hpe-deep-dive/xxe-exploit.jpg"
+  },
+  {
+    "title": "CVE-2024-37397 - Ivanti Endpoint Manager XXE Vulnerability",
+    "slug": "ivanti-endpoint-manager-xxe-cve-2024-37397",
+    "date": "2024-11-24",
+    "author": "D4mianWayne",
+    "tags": ["CVE-2024-37397", "XXE", "Java", "oob-xxe"],
+    "summary": "This post provides an in-depth analysis of the exploitation process for an unauthenticated XXE vulnerability in Ivanti Endpoint Manager. It covers the technical background, vulnerable code, and exploitation steps, with a focus on the XML parsing logic.",
+    "coverImage": "/img/ivanti-cve-2024-37397/xxe-showcase.jpg"
+  }
+] 

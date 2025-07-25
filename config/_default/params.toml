@@ -1,0 +1,74 @@
+# Theme parameters
+[Params]
+  authorbox = false
+  
+  # Social media links
+  twitter_username = "@D4mianWayne"
+  github_username = "D4mianWayne"
+  linkedin_username = "d4mianwayne"
+  
+  # SEO settings
+  og_image = "/img/pwnfuzz.png"
+  twitter_image = "/img/pwnfuzz.png"
+  
+  # Site metadata
+  site_name = "PwnFuzz"
+  site_description = "PwnFuzz is a leading security research platform focused on vulnerability discovery, exploit development, and offensive security. Expert analysis by D4mianWayne covering CVEs, fuzzing, and red team methodologies."
+  
+  # Keywords for SEO
+  keywords = ["pwnfuzz", "security research", "exploit development", "vulnerability analysis", "binary exploitation", "fuzzing", "red team", "penetration testing", "CVE analysis", "offensive security", "D4mianWayne"]
+
+[style]
+  vars = {}
+
+# Header configuration
+[header]
+  logo = "img/logo.png"  # Add your logo here
+  logoText = "PwnFuzz"
+  logoTitle = "Pwnfuzz - Security Research"
+
+# Content settings
+[content]
+  [content.sectionPagesMenu]
+    weight = 1
+
+# Author settings
+[Author]
+    name = "D4mianWayne"
+    bio = "Vulnerability Researcher, Exploit Developer"
+    avatar = "/img/profile-placeholder.jpg"
+
+# Widgets
+[sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[widgets]
+  recent_num = 5
+  tags_counter = true
+
+# Post settings
+[post]
+  readMore = true
+  share = true
+  shareButtons = ["twitter", "linkedin", "reddit"]
+  related = 3
+  relatedByTags = true
+  relatedByCategories = false
+
+# Comments (uncomment and configure as needed)
+#[disqus]
+#  shortname = "your-disqus-shortname"
+
+# Analytics (uncomment and configure as needed)
+#[googleAnalytics]
+#  id = "your-google-analytics-id"
+
+# Search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
